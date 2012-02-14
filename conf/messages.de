@@ -1,0 +1,29 @@
+global.title=Zahlenratespiel:
+
+index.title=Willkommen
+index.heading=Willkommen
+index.message=Willkommen beim Zahlenratespiel!
+index.link.start=Neues Spiel
+
+start.title=Zahlenratespiel
+start.heading=Zahlenratespiel
+start.message=Ich denke an eine Zahl zwischen {0} und {1}. Bitte versuche sie zu erraten.
+
+right.title=Richtig
+right.heading=Richtig
+right.message=Du hast die Zahl nach nur {0} Versuchen erraten!
+right.bestscore=Die wenigsten Versuche bisher sind {0}.
+right.newbestscore=Das ist bisher das beste Ergebnis.
+right.link.restart=Neues Spiel
+
+wrong.title=Fast Richtig
+wrong.heading=Tut mir leid
+wrong.message=Fast richtig
+wrong.lower=Beim nächsten Mal versuche niedriger.
+wrong.higher=Beim nächsten Mal versuche höher.
+wrong.numguesses=Du hast {0} Versuche bisher.
+
+prompt.guess=Raten:
+button.submit=Eingabe
+
+guessForm.guess.displayName=Versuch

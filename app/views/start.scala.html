@@ -1,0 +1,12 @@
+@(guessForm: Form[Long], minGuess: Long, maxGuess: Long)
+
+@import helper._
+@import play.api.i18n.Messages.{apply => message}
+
+@main(message("global.title") + " " + message("start.title")) {
+	<h1>@message("start.heading")</h1>
+	<p>@message("start.message", minGuess, maxGuess)</p>
+	@form(action = routes.Application.guess()) {
+   		@inputText(guessForm("value"), 'label -> message("prompt.guess"))
+	}
+}

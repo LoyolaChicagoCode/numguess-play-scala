@@ -1,0 +1,29 @@
+global.title=Number Guess Game:
+
+index.title=Welcome
+index.heading=Welcome
+index.message=Welcome to the Number Guess game!
+index.link.start=Play game
+
+start.title=Guess
+start.heading=Guess
+start.message=I am thinking of a number between {0,number,integer} and {1,number,integer}. Please make your guess.
+
+right.title=Right
+right.heading=Right
+right.message=You got it after only {0,number,integer} guesses!
+right.bestscore=The best number of guesses so far is {0,number,integer}.
+right.newbestscore=That's the best score so far.
+right.link.restart=Play again
+
+wrong.title=Wrong
+wrong.heading=Sorry
+wrong.message=Close, but not quite.
+wrong.lower=Next time, try lower.
+wrong.higher=Next time, try higher.
+wrong.numguesses=You have made {0,number,integer} guesses so far.
+
+prompt.guess=Guess:
+button.submit=Submit
+
+guessForm.guess.displayName=Guess

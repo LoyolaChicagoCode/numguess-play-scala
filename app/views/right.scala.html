@@ -1,0 +1,10 @@
+@(guessForm: Form[Long], model: models.NumguessModel)
+
+@import helper._
+@import play.api.i18n.Messages.{apply => message}
+
+@main(message("global.title") + " " + message("right.title")) {
+	<h1>@message("right.heading")</h1>
+	<p>@message("right.message", model.numGuesses)</p>
+	<p><a href="@routes.Application.start()">@message("right.link.restart")</a></p>
+}
