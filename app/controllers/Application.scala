@@ -1,10 +1,9 @@
 package controllers
 
 import play.api.cache.Cache
-import play.api.data.number
-import play.api.data.Form
-import play.api.mvc.Controller
-import play.api.mvc.Session
+import play.api.data._
+import play.api.data.Forms._
+import play.api.mvc.{Action, Controller, Session}
 import play.api.Play
 import play.api.Logger
 import java.util.UUID
@@ -47,7 +46,7 @@ object Application extends Controller {
     Logger.info("updated model = " + model)
 
     if (model.comparison == 0)
-      Ok(views.html.right(guessForm, model))
+      Ok(views.html.right(model))
     else
       Ok(views.html.wrong(guessForm, model))
   }
